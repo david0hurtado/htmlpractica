@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cine Azul</title>
+  <style>
+    body {
+      background-color: #0d47a1; /* Azul profundo */
+      font-family: Arial, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #1565c0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .cuadro {
+      background-color: #1e88e5;
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .cuadro:hover {
+      transform: scale(1.05);
+    }
+
+    .cuadro h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #0d47a1;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎬 Cine Azul</h1>
+    <p>Tu rincón favorito para hablar de películas</p>
+  </header>
+
+  <div class="contenedor">
+    <div class="cuadro">
+      <h3>4 fantastic</h3>
+      <p>Los 4 Fantásticos enfrentan a Galactus en una Tierra retro, 
+        mientras redescubren su fuerza como familia.
+</p>
+    </div>
+    <div class="cuadro">
+      <h3> the thunderbolts</h3>
+      <p>  Thunderbolts es una misión suicida de antihéroes rotos que buscan redención en medio 
+        del caos.
+</p>
+    </div>
+    <div class="cuadro">
+      <h3>John Wick</h3>
+      <p>John Wick es un exasesino que desata una venganza implacable tras 
+        perder lo único que le quedaba: su perro.
+</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Cine Azul. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
